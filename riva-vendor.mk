@@ -22,6 +22,12 @@ PRODUCT_PACKAGES += \
     libts_face_beautify_hal
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/riva/proprietary/vendor/lib/hw/lirc/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lirc/consumerir.default.so \
+    vendor/xiaomi/riva/proprietary/vendor/lib64/hw/lirc/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lirc/consumerir.default.so \
+    vendor/xiaomi/riva/proprietary/vendor/lib/hw/spidev/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/spidev/consumerir.default.so \
+    vendor/xiaomi/riva/proprietary/vendor/lib64/hw/spidev/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/spidev/consumerir.default.so
+
+PRODUCT_COPY_FILES += \
     vendor/xiaomi/riva/proprietary/vendor/lib64/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_dbg.so \
     vendor/xiaomi/riva/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so \
     vendor/xiaomi/riva/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_stats_algorithm.so \
@@ -29,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/riva/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
     vendor/xiaomi/riva/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_q3a_core.so \
     vendor/xiaomi/riva/proprietary/vendor/lib64/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_is.so \
-    vendor/xiaomi/riva/proprietary/vendor/lib64/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.default.so \
     vendor/xiaomi/riva/proprietary/vendor/lib64/libmmcamera_cac3_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_cac3_lib.so \
     vendor/xiaomi/riva/proprietary/vendor/lib/libchromatix_ov4688_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_cpp_liveshot.so \
     vendor/xiaomi/riva/proprietary/vendor/lib/libchromatix_ov8865_hfr_120_dw9714.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_hfr_120_dw9714.so \
@@ -1009,7 +1014,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/riva/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_gb_lib.so \
     vendor/xiaomi/riva/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_default_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_ofilm_riva_default_preview_dw9763.so \
     vendor/xiaomi/riva/proprietary/vendor/lib/libchromatix_ov2281_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2281_default_video.so \
-    vendor/xiaomi/riva/proprietary/vendor/lib/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.default.so \
     vendor/xiaomi/riva/proprietary/vendor/lib/libchromatix_sony_imx486_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sony_imx486_ii_preview.so \
     vendor/xiaomi/riva/proprietary/vendor/lib/libchromatix_ov8865_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_cpp_hfr_120.so \
     vendor/xiaomi/riva/proprietary/vendor/lib/libchromatix_s5k3l8_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_postproc.so \
